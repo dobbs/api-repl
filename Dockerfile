@@ -8,4 +8,4 @@ RUN addgroup -S -g 7777 pry \
 USER pry
 WORKDIR /home/pry
 
-CMD ["env", "pry", "-r", "faraday", "-r", "json", "-r", "yaml"]
+ENTRYPOINT ["env", "pry", "-r", "faraday", "-r", "json", "-r", "yaml"]
