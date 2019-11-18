@@ -11,8 +11,6 @@ http://pryrepl.org
 
 https://github.com/lostisland/faraday
 
-https://github.com/pezra/hal-client
-
 ### Example browse of github API:
 
 ``` ruby
